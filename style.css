@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://wallpapercrafter.com/sizes/1920x1080/86973-minimalist-minimalism-mountains-hd-4k-dark-black-simple-background-dribbble-oled.jpg') no-repeat center center fixed; /* Set image as background */
+    background-size: cover; /* Make the image cover the entire background */
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    max-width: 600px; /* Limit width for login form */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 60px 30px;
+    backdrop-filter: blur(10px); /* Blur effect for modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    text-align: center;
+}
+
+.header {
+    margin-top: -10px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin: 20px 0 30px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    margin-top: 80px;
+}
+
+.button {
+    padding: 20px 20px;
+    background-color: #fff; /* White buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 30px;
+    width: 100%; /* Full width for buttons */
+    color: black; /* Button text color */
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #202A23; /* Button hover effect */
+    color: white; /* Invert colors on hover */
+}
+
+/* Additional optional style changes for improved aesthetics */
+.header {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for title */
+}
+
+/* Adjustments for different screen sizes */
+@media (max-width: 600px) {
+    .container {
+        padding: 17px;
+        max-width: 90%;
+    }
+}
